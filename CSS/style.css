@@ -1,3 +1,5 @@
+
+
 header .top {
   width: 960px;
   height: 40px;
@@ -132,62 +134,87 @@ header nav ul li.dropdown:hover .dropdown-menu {
   display: block;
 }
 
+#darzoves {
+	color:rgb(186, 236, 188);
+	background-color: rgb(104, 184, 108);
+	border-radius: 5px;
+	padding:10px;
+	}
+	#vaisiai {
+		color:rgb(240, 214, 218);
+		background-color: rgb(175, 127, 127);
+		border-radius: 5px;
+		padding:10px;
+		}	
+		#visi {
+			color:rgb(246, 243, 250);
+			background-color: rgb(175, 169, 202);
+			border-radius: 5px;
+			padding:10px;
+			}
+			.mygtukai {
+				margin-left: 100px;
+			}
 
 /* footer */
 
-footer {
-  text-align: center;
-  height: 200px;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background-color: #f2dec4;
-  margin-bottom: 0;
-  margin-top: 20px;
-}
 
-form input {
-  margin: 20px 0;
-  padding: 10px 20px;
-  font-size: 24px;
-  border-radius: 28px;
-  border: 4px rgba(236, 242, 224);
-  text-align: center;
-}
-form input:focus {
-  border: 4px dashed #4b4b4b;
-  outline: none;
-}
-form input:valid {
-  border: 4px solid #71d300;
-}
+footer{ 
+    text-align: center;
+    height: 100px;
+    padding-top: 1em ;
+    padding-bottom: 1em;
+    background-color: #F2DEC4;}
+  
+  
+  form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px rgba(236,242,224);
+  }
+  form input:focus{
+    border: 4px dashed #4B4B4B;
+    outline: none;
+  }
+  form input:valid{
+    border: 4px solid #71d300;
+  }
+  
+  .fa {
+      padding: 20px;
+       font-size: 30px; 
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      
+    } 
+    
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+	  border-radius: 10px;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+	  border-radius: 10px;
+    }
+    
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+	  border-radius: 10px;
+    }
 
-.fa {
-  border-radius: 20%;
-  padding: 20px;
-  width: 65px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
 
 .footer {
   margin-bottom: 20px;
