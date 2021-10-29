@@ -9,14 +9,14 @@ buttonDarzoves.addEventListener("click", function () {
 
 let buttonVaisiai = document.querySelector("#vaisiai");
 buttonVaisiai.addEventListener("click", function () {
-    darzove.classList.add("d-none");
+    darzoves.classList.add("d-none");
 
 })
 
 let buttonVisi = document.querySelector("#visi");
 buttonVisi.addEventListener("click", function () {
     vaisiai.classList.remove("d-none");
-    darzove.classList.remove("d-none");
+    darzoves.classList.remove("d-none");
     })
 
 
