@@ -132,6 +132,28 @@ header nav ul li.dropdown:hover .dropdown-menu {
   display: block;
 }
 
+#darzoves {
+	color:rgb(186, 236, 188);
+	background-color: rgb(104, 184, 108);
+	border-radius: 5px;
+	padding:10px;
+	}
+	#vaisiai {
+		color:rgb(240, 214, 218);
+		background-color: rgb(175, 127, 127);
+		border-radius: 5px;
+		padding:10px;
+		}	
+		#visi {
+			color:rgb(246, 243, 250);
+			background-color: rgb(175, 169, 202);
+			border-radius: 5px;
+			padding:10px;
+			}
+			.mygtukai {
+				margin-left: 110px;
+			}
+
 
 /* footer */
 
@@ -177,16 +199,19 @@ form input:valid {
 .fa-facebook {
   background: #3b5998;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-twitter {
   background: #55acee;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-google {
   background: #dd4b39;
   color: white;
+  border-radius: 10px;
 }
 
 .footer {
